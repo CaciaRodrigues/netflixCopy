@@ -1,0 +1,49 @@
+.rodape {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  font-size: 13px;
+  margin: 4.5rem 0 0 12rem;
+}
+
+.rodape_icones {
+  display: flex;
+  column-gap: 1.5rem;
+  font-size: 22px;
+}
+
+.rodape_icones a {
+  color: var(--cor-branco);
+}
+
+.rodape_info {
+  display: flex;
+  column-gap: 5rem;
+}
+
+.rodape_lista {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.rodape_lista a {
+  text-decoration: none;
+  color: var(--cor-cinza-medio);
+}
+
+.rodape_botao {
+  text-decoration: none;
+  color: var(--cor-cinza-medio);
+  border: 1px solid;
+  width: 7.5rem;
+  text-align: center;
+  padding: 0.6rem 0;
+  margin-top: 1rem;
+}
+
+.rodape_copyright {
+  font-size: 13px;
+  color: var(--cor-cinza-medio);
+  padding-bottom: 1rem;
+}

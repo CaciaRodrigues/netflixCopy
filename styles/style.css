@@ -1,0 +1,36 @@
+@import url('/styles/navegacao.css');
+@import url('/styles/banner.css');
+@import url('/styles/listas.css');
+@import url('/styles/rodape.css');
+
+:root {
+  --fonte-netflix: 'Netflix Sans', sans-serif;
+  --cor-branco: #ffffff;
+  --cor-branco-borda: #dcdcdc;
+  --cor-branco-acinzentado: #e5e5e5;
+  --cor-cinza-70: rgba(109, 109, 110, 0.7);
+  --cor-cinza-medio: #808080;
+  --cor-cinza-60: rgba(51, 51, 51, 0.6);
+  --cor-cinza-escuro: #141414;
+  --cor-cinza-preto: #070707;
+  --cor-preto: #000000;
+  --cor-vermelho: #e50914;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9) 5%,
+      rgba(0, 0, 0, 0.2) 20%,
+      rgba(0, 0, 0, 0.6) 80%,
+      rgba(20, 20, 20, 0.8) 90%,
+      rgba(20, 20, 20, 1) 100%
+    ),
+    url('/imgs/bannerFilme.png');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 117vh;
+  background-color: var(--cor-cinza-escuro);
+  color: var(--cor-branco-acinzentado);
+  font-family: var(--fonte-netflix);
+}

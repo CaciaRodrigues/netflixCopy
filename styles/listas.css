@@ -1,0 +1,24 @@
+.listas_conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.lista_carrossel {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    row-gap: 1rem;
+}
+
+.listas_imgs{
+    display: flex;
+    flex-wrap:nowrap;
+    column-gap: 0.5rem;
+}
+
+.listas_imgs img {
+    width: 15rem;
+    border-radius: 3px;
+}

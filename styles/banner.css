@@ -1,0 +1,35 @@
+.banner {
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+    line-height: 1.4rem;
+    font-size: 17.5px;
+    color: var(--cor-branco);
+    padding: 1rem 3rem;
+}
+
+.banner_botoes {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.botao_assistir, .botao_info {
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+    padding: .6rem 1.2rem;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.botao_assistir {
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+}
+
+.botao_info {
+    background-color: var(--cor-cinza-70);
+    color: var(--cor-branco);
+}

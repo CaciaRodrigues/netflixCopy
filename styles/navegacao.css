@@ -1,0 +1,33 @@
+.barra_navegacao {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.navegacao_site, .lista_navegacao, .lista_perfil  {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo_netflix {
+height: 1.7rem; 
+margin-right: 2rem; 
+}
+
+.navegacao_item a {
+    color: var(--cor-branco-acinzentado);
+    text-decoration: none;
+}
+
+.perfil_user {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.item_destaque a {
+    color: var(--cor-branco);
+}
